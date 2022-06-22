@@ -1,0 +1,65 @@
+{% load static %}
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>О компании</title>
+    <link rel="icon" href="static/img/Log.png" type="images/png">
+    <link rel="stylesheet" href="{% static 'style.css'%}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;600;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="bckg"></div>
+    <header class="header">
+    <div class="container">
+        <div class="header_inner">
+            <div class="header_logo">Сибирский гостинец</div>
+                <nav class="nav">
+                    <a class="nav_link" href="about-us">О компании</a>
+                    <a class="nav_link" href="product">Продукция</a>
+                    <a class="nav_link" href="blog">Блог</a>
+                    <a class="nav_link" href="contacts">Контакты</a>
+                    <a class="nav_link" href="#"><img src="static/img/sign-in.png" title="Профиль"></a>
+                </nav>
+        </div>
+    </div>
+    </header>
+    <style>
+        body {
+         background-image: url(static/img/bkg.jpg); /* Путь к фоновому изображению */
+         background-color: #c7b39b; /* Цвет фона */
+         background-size: 100%;
+
+        }
+       </style>
+    
+    <div class="bar">
+        <div class="text_title">
+            <b><a class="about_title">О компании</b></a>
+            <a class="photo">
+                <img src="static/img/sibgos2.jpg" width="850px" height="400px">
+            </a>
+            <h3 class="text_about">Менеджмент</h3>
+            <p class="text_info">Система управления компании «Сибирский гостинец» строится в соответствии с действующим российским законодательством, Уставом и внутренними документами. Совет директоров являетя органом управления ПАО "Сибирский гостинец" и осуществляет общее руководство деятельностью Компании, за исключением решения вопросов, отнесенных Федеральным законом “Об акционерных обществах” и Уставом Компании к компетенции Общего собрания акционеров.</p> 
+            <h3 class="text_about">Миссия и стратегия</h3>
+             <p class="text_info">Нашей миссией является создание производства продуктов, приносящих людям реальную пользу.</p>
+             <p class="text_info">Экономические реалии сегодняшнего дня требуют от производителей поиска новых решений. Общее падение покупательской способности, увеличение производственных издержек и другие факторы в корне изменили стратегию компании.</p>
+             <p class="text_info">Статус публичной компании также накладывает на "Сибирский гостинец" дополнительную ответственность и новые обязательства. Несмотря на сложную рыночную ситуацию, компания продолжает работу над повышением эффективности, расширением ассортимента продукции, усилением позиций на ключевых рынках и развитием долгосрочных отношений с клиентами. Эти направления деятельности призваны обеспечить рост финансовых показателей и капитализации компании в интересах всех ее акционеров.</p>
+             <p class="text_info">В конце 2015 года была разработана новая стратегия компании, определяющая приоритеты развития на ближайшие годы:</p> 
+             <ul class="ul_text">
+                 <li>Создание собственного высокотехнологичного, наукоемкого производства;</li>
+                 <li>Обеспечить оптимальную структуру капитала и повысить ликвидность акций компании;</li>
+                 <li>Диверсифицировать бизнес-процессы, связанные с заготовкой сырья;</li>
+                 <li>Развитие бренда «Сибирский гостинец», нацеленное на развитие долгосрочных взаимоотношений с покупателями;</li>
+                 <li>Экспансия на международные рынки.</li>
+             </ul>
+        </div> 
+    </div>
+    
+</body>
+</html>
